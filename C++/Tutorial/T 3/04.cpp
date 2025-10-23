@@ -5,12 +5,8 @@ int main()
     int n;
     cout << "Enter n : ";
     cin >> n;
-    if (n % 2 == 0)
+    for (int i = 1; i <= n; i++)
     {
-        cout << "Even";
-    }
-    else
-    {
-        cout << "Odd";
+        cout << i * i;
     }
 }

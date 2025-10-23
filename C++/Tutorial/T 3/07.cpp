@@ -2,15 +2,12 @@
 using namespace std;
 int main()
 {
-    int n;
+    int n, c = 0;
     cout << "Enter n : ";
     cin >> n;
-    if (n % 2 == 0)
+    for (int i = 1; i <= n; i = i + c)
     {
-        cout << "Even";
-    }
-    else
-    {
-        cout << "Odd";
+        cout << i;
+        c++;
     }
 }

@@ -5,12 +5,14 @@ int main()
     int n;
     cout << "Enter n : ";
     cin >> n;
-    if (n % 2 == 0)
+    if (n > 10)
     {
-        cout << "Even";
+        n += 5;
+        cout << n;
     }
     else
     {
-        cout << "Odd";
+        n -= 3;
+        cout << n;
     }
 }
